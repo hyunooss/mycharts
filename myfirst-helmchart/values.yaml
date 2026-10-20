@@ -1,0 +1,26 @@
+replicaCount: 2
+fullnameOverride: sk026-myfirst-helmchart
+image:
+  repository: skala-registry.skala-us.com/class-1/sk026-webserver
+  tag: "2.0.helm-buildkit"
+  pullPolicy: IfNotPresent
+imagePullSecrets:
+  - name: sk026-helm-registry
+labVersion: "2.0"
+student: sk026
+className: class-1
+service:
+  type: ClusterIP
+  port: 8080
+ingress:
+  enabled: true
+  className: nginx
+  host: sk026-ingress.class-1.skala-us.com
+  tlsSecret: wildcard-class-1-skala-us-com-tls
+resources:
+  requests:
+    cpu: 100m
+    memory: 256Mi
+  limits:
+    cpu: "1"
+    memory: 768Mi

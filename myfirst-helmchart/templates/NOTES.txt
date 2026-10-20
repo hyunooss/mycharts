@@ -1,0 +1,2 @@
+class-1 / sk026 Helm practice
+https://{{ .Values.ingress.host }}/swagger-ui/index.html

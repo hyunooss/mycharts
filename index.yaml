@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  sk026-myfirst-helmchart:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2026-10-20T15:29:42.512405+09:00"
+    description: Spring Boot Helm practice for class-1 sk026
+    digest: 676605b3bcc3f3ebef73af11b2a0a547ba89d1256c1bced6ed751ef31987d67d
+    name: sk026-myfirst-helmchart
+    type: application
+    urls:
+    - https://hyunooss.github.io/mycharts/sk026-myfirst-helmchart-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-10-20T15:29:42.512115+09:00"
+    description: Spring Boot Helm practice for class-1 sk026
+    digest: ffb50508c356bbf22c723b094faca618f84da51301a88d4efac13a0c4b97b124
+    name: sk026-myfirst-helmchart
+    type: application
+    urls:
+    - https://hyunooss.github.io/mycharts/sk026-myfirst-helmchart-0.0.1.tgz
+    version: 0.0.1
+generated: "2026-10-20T15:29:42.511698+09:00"
